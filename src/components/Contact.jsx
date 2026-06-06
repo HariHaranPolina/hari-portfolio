@@ -19,7 +19,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
           {[
             { icon: '✉️', label: 'Email', value: 'hariharan.polina@gmail.com', href: 'mailto:hariharan.polina@gmail.com' },
-            { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/hariharan-polina', href: 'https://www.linkedin.com/in/hari-haran-68252355' },
+            { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/hari-haran-68252355', href: 'https://www.linkedin.com/in/hari-haran-68252355' },
             { icon: '🐙', label: 'GitHub', value: 'github.com/HariHaranPolina', href: 'https://github.com/HariHaranPolina' },
           ].map(item => (
             <a key={item.label} href={item.href} target="_blank" rel="noreferrer"
